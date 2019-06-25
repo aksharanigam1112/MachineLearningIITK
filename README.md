@@ -1,5 +1,5 @@
 ## Python basics and Machine Learning from scratch
-Libraries neended:
+Libraries needed:
 1) numpy
 2) matplotlib
 3) pandas
