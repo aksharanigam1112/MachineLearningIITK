@@ -1,0 +1,7 @@
+file = open("sensor.txt","r")
+print(file.read(6))
+print("\nLatest starting location = ",file.tell())
+print(file.read())
+print("First = ", file.closed)
+file.close()
+print("Second = ",file.closed)

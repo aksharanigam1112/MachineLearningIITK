@@ -1,0 +1,5 @@
+fob = open("sensor.txt","w")
+abc = fob.write("This is first line")
+print("Result = ",abc)
+fob.close()
+print("\nData saved successfully")
