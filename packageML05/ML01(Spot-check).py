@@ -10,4 +10,4 @@
 # 8) Preceptron
 # 9) Random Forest
 # 10) Stochastic Gradient Descent
-3 11) Gradient Boosting Claasifier
+# 11) Gradient Boosting Claasifier
