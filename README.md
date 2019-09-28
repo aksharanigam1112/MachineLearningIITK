@@ -8,3 +8,4 @@ Libraries needed:
 6) sklearn
 7) Pillow
 8) seaborn
+9) opencv-python (cv2)
