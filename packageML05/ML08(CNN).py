@@ -35,6 +35,8 @@ drawImg(img,"Mickey Mouse")
 img = cv2.resize(img,(100,100))
 drawImg(img)
 
+# Extracting features from an image using filters
+
 # Converting 3D image to 2D using Grayscale since RGB image has 3 channels while gray image has only 1 channel
 img_gray = cv2.cvtColor(img , cv2.COLOR_BGR2GRAY)
 drawImg(img_gray)
@@ -51,3 +53,10 @@ edge_filter = np.array([[1,0,-1],
 
 output2 = convolution(img_gray , edge_filter)
 drawImg(output2)
+
+xyz_filter = np.array([[2,2,-2],
+                       [2,2,-2],
+                       [2,2,-2]])
+
+output3 = convolution(img_gray , xyz_filter)
+drawImg(output3)
